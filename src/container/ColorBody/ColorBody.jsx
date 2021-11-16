@@ -1,7 +1,10 @@
 import IndividualColor from "../../Component/IndividualColor/IndividualColor";
 import "./ColorBody.css";
 
-//filling the RGB value in colors array
+//function for filling the values in array by iterating first kepping red color value const and
+// increasing green and blue value by 8 and once the value is
+//grater than 256 restart the loop by increasing the value of red color
+//and breaking the loop once the value of red is over 256
 const fillColors = (colors) => {
   for (let redItr = 8; redItr <= 256; redItr += 8) {
     for (let greenItr = 8; greenItr <= 256; greenItr += 8) {
@@ -14,7 +17,7 @@ const fillColors = (colors) => {
 
 function ColorBody() {
   const colorsArray = [];
-
+  //filling the RGB value in colors array
   fillColors(colorsArray);
 
   return (
