@@ -1,0 +1,5 @@
+.colorbody {
+  display: grid;
+  grid-template-columns: repeat(256, 2px);
+  grid-template-rows: repeat(128, 2px);
+}
