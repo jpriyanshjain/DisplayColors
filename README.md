@@ -1,7 +1,7 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).\
-live link = https://github.com/jpriyanshjain/DisplayColors
+live link = https://colorsapp-a938df.netlify.app/
 ## Available Scripts
 
 In the project directory, you can run:
