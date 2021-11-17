@@ -10,6 +10,7 @@ function ColorBody() {
     // increasing green and blue value by 8 and once the value is
     //grater than 256 restart the loop by increasing the value of red color
     //and breaking the loop once the value of red is over 256
+
     for (let redItr = 8; redItr <= 256; redItr += 8) {
       for (let greenItr = 8; greenItr <= 256; greenItr += 8) {
         for (let blueItr = 8; blueItr <= 256; blueItr += 8) {
